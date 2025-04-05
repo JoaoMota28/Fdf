@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror
 LIBFT = libft/
 MLX = minilibx-linux
 
-SRCS = fdf.c parse.c
+SRCS = fdf.c init.c utils.c parse.c pixel.c line.c free.c
 
 OBJS = $(SRCS:.c=.o)
 
